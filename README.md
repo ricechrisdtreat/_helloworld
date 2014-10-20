@@ -1,4 +1,7 @@
 # Development
 
-- CD into directory after expanding
-- RUN: $ sass --watch stylesheets/
+- CD into directory after cloning
+
+```
+$ sass --watch stylesheets/
+```
