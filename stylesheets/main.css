@@ -5,22 +5,37 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   border: 0;
   outline: 0;
   vertical-align: baseline;
-  list-style: none outside none; }
+  list-style: square outside none;
+  list-style-type: square; }
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  background: #f9f9f9;
+  width: 100%; }
+
+body {
+  background: white;
+  border: 1px solid #ececec;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 25px;
+  width: 95%; }
+
 li, a, p, h1, h2, h3, h4, h5, h6, label, input, th, td {
-  list-style: none outside none;
+  list-style-type: square;
   text-decoration: none;
   font-family: "Source Sans Pro", Georgia, serif;
-  font-size: 11pt;
   line-height: 1.5em;
   letter-spacing: 0.03em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro"; }
+
+.list {
+  padding: 0 0 0 30px; }
 
 /*# sourceMappingURL=main.css.map */
